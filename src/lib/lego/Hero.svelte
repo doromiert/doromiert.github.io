@@ -33,7 +33,7 @@
         rotate: -20deg;
         font-family: "Comic Neue";
         font-weight: bold;
-        animation: gay 6s ease-in-out infinite;
+        animation: gay 3s ease-in-out infinite alternate;
     }
     @keyframes gay {
             0% {
