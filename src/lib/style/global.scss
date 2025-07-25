@@ -1,0 +1,98 @@
+@use "colors.scss" as c;
+@use "variables.scss" as v;
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&display=swap');
+
+:root{
+    @include v.standard-text();
+    scrollbar-gutter: stable;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+}
+
+button{
+    border: none;
+    display: flex;
+    padding: 12px;
+    gap: 12px;
+    transition: 0.25s;
+    align-items: center;
+    @media (hover: hover){
+        &:hover{
+            filter: brightness(150%);
+            scale: 1.25;
+        }
+    }
+    &:active{
+        filter: brightness(50%);
+        scale: 0.9;
+        transition: none;
+    }
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    margin-top: 0;  
+    margin-bottom: 0;
+    &:has(code){
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+h1{
+    margin-top: 5px;  
+    margin-bottom: 5px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+h2{
+    margin-top: 5px;  
+    margin-bottom: 5px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+h3{
+    margin-top: 5px;  
+    margin-bottom: 5px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+h4{
+    margin-top: 5px;  
+    margin-bottom: 5px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+ul{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+code{
+    background-color: #00000080;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+pre{
+    &:has(code){
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 10px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+}

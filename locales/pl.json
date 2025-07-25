@@ -1,0 +1,119 @@
+{
+    "login": {
+        "devMode0": "Włączyłeś tryb deweloperski!",
+        "devMode1": "Jeśli nie wiesz co to jest, naciśnij przycisk",
+        "devMode2": "żeby wrócić do trybu normalnego."
+    },
+    "loginBox": {
+        "signup": "Zarejestruj się",
+        "signinwith": "Zaloguj się za pomocą...",
+        "loginGreet": "Zaloguj się do Amity",
+        "login": "Zaloguj się",
+        "forgotpassword": "Zapomniałeś hasła?",
+        "password": "Hasło",
+        "username": "Tag użytkownika",
+        "instanceURL": "URL serwera",
+        "serverUnreachable": "Ten serwer jest offline lub nie istnieje",
+        "fillAllSpaces": "Wypełnij wszystkie pola",
+        "switchAccount": "Zmień konto",
+        "addAccount": "Dodaj konto",
+        "noAccounts": "Nie ma innych kont",
+        "noAccountsDesc": "Możesz dodać więcej kont klikając przycisk \"dodaj konto\""
+    },
+    "signupBox": {
+        "username": "Twój tag",
+        "instanceURL": "URL serwera",
+        "usertag": "Tag użytkownika",
+        "password": "Hasło",
+        "confirmpassword": "Powtórz hasło",
+        "fileserver": "Serwer plików",
+        "cancel": "Anuluj"
+    },
+    "sidebar": {
+        "newFolder": "Nowy folder",
+        "closeNewFolder": "Zamknij",
+        "allChats": "Wszystkie czaty",
+        "storiesButton": "Storiesy",
+        "noChats": "Nikogo tu nie ma...",
+        "noChatsDesc": "Możesz założyć nową grupę lub dołączyć do istniejącej klikając przycisk \"więcej\" na górze",
+        "sadBillAlt": "Smutny Bill",
+        "emptyFolder": "Ten folder jest pusty",
+        "emptyFolderDesc": "Kliknij prawym przyciskiem myszy na folder i wybierz \"Edytuj folder\" → \"Czaty\" aby dodać czaty",
+        "unreachable": "Serwer niedostępny",
+        "folderCtx": {
+            "editButton": "Edytuj folder",
+            "deleteButton": "Usuń folder",
+            "iconButton": "Ikona",
+            "chatPickerButton": "Czaty",
+            "editSaveButton": "Zapisz"
+        },
+        "userbar": {
+            "yourEntries": "Ty i przyjaciele",
+            "newEntries": "Nowe",
+            "archiveEntries": "Biblioteka",
+            "aboutEntries": "O Amity",
+            "settings": "Settings",
+            "logoutEntry": "Wyloguj się",
+            "changelogEntry": "Nowości w Amity",
+            "instanceEntry": "O tym serwerze",
+            "archivedEntry": "Archiwowane czaty",
+            "savedEntry": "Zapisane wiadomości",
+            "thingsEntry": "Twoje rzeczy",
+            "friendsEntry": "Twoi znajomi",
+            "profileEntry": "Twój profil",
+            "tooltips": {
+                "copyTag": "Skopiuj swój tag",
+                "switchAccount": "Zmień konto",
+                "notifButton": "Powiadomienia",
+                "backButton": "Zamknij pasek"
+            },
+            "newGroupEntry": "Nowa grupa",
+            "newSoapboxEntry": "Nowe podium"
+        }
+    },
+    "start": {
+        "aboutAmity": "Amity jest zdecentralizowaną aplikacją do rozmów z otwartym kodem źródłowym, pozwalającą komukolwiek rozmawiać z kimkolwiek.",
+        "demo": "Eksploruj demo",
+        "slogan": "Aplikacja do rozmów dla wszystkich"
+    },
+    "chat": {
+        "loading": "Amy się budzi...",
+        "emptyView": "Wybierz czat na pasku po lewej...",
+        "searchbox": "Szukaj...",
+        "chatboxPlaceholder": "Napisz wiadomość...",
+        "members": "członków",
+        "member": "członek",
+        "previewMessage": "Podejrzyj wiadomość"
+    },
+    "ctxMenus": {
+        "searchIcons": "Szukaj ikon...",
+        "searchChats": "Szukaj czatów..."
+    },
+    "newGroup": {
+        "createButton": "Stwórz",
+        "namePlaceholder": "Nazwa grupy",
+        "descPlaceholder": "Opis grupy",
+        "privacy": {
+            "button": "Prywatność",
+            "private": "Prywatna",
+            "public": "Publiczna"
+        },
+        "channels": {
+            "toggleButton": "Kanały",
+            "enabled": "Włączone",
+            "disabled": "Wyłączone",
+            "createButton": "Stwórz kanał",
+            "namePlaceholder": "Nazwa kanału",
+            "descPlaceholder": "Opis kanału",
+            "editButton": "Edytuj kanały",
+            "channelCount": "{count} kanał{plural}"
+        },
+        "errors": {
+            "noName": "Nazwij tą grupę"
+        }
+    },
+    "loading": "Ładowanie...",
+    "button": {
+        "waiting": "Zaczekaj..."
+    }
+}

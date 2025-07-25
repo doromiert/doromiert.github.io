@@ -1,0 +1,22 @@
+$spacing-def: 12px;
+$spacing-big: 20px;
+
+@mixin standard-text{
+
+    font-family: Atkinson Hyperlegible;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 2%;
+}
+
+@mixin header{
+    
+    font-family: Atkinson Hyperlegible;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1%;
+}
