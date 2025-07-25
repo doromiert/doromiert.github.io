@@ -59,8 +59,8 @@ declare module '$env/static/private' {
 	export const GDM_LANG: string;
 	export const HOME: string;
 	export const USERNAME: string;
-	export const LC_PAPER: string;
 	export const LANG: string;
+	export const LC_PAPER: string;
 	export const XDG_CURRENT_DESKTOP: string;
 	export const npm_package_version: string;
 	export const MEMORY_PRESSURE_WATCH: string;
@@ -79,8 +79,8 @@ declare module '$env/static/private' {
 	export const npm_config_npm_version: string;
 	export const _tide_pad: string;
 	export const XDG_SESSION_CLASS: string;
-	export const TERM: string;
 	export const LC_IDENTIFICATION: string;
+	export const TERM: string;
 	export const npm_package_name: string;
 	export const npm_config_prefix: string;
 	export const USER: string;
@@ -179,8 +179,8 @@ declare module '$env/dynamic/private' {
 		GDM_LANG: string;
 		HOME: string;
 		USERNAME: string;
-		LC_PAPER: string;
 		LANG: string;
+		LC_PAPER: string;
 		XDG_CURRENT_DESKTOP: string;
 		npm_package_version: string;
 		MEMORY_PRESSURE_WATCH: string;
@@ -199,8 +199,8 @@ declare module '$env/dynamic/private' {
 		npm_config_npm_version: string;
 		_tide_pad: string;
 		XDG_SESSION_CLASS: string;
-		TERM: string;
 		LC_IDENTIFICATION: string;
+		TERM: string;
 		npm_package_name: string;
 		npm_config_prefix: string;
 		USER: string;
