@@ -13,7 +13,7 @@
         </div>
     </div>
     <div class="buttons">
-        <a href="https://buymeacoffee.com/nrdeez">
+        <a href="https://buymeacoffee.com/doromiert">
             <button style="background-color: var(--footerb)">
                 <Icon name="Money" color="var(--footera)"/>
             </button>
