@@ -44,11 +44,4 @@
         height: 46px;
     }
 
-    .doromiertZnak{
-        display: flex;
-        gap: 10px;
-        @media (max-width: 620px) {
-            flex-direction: column;
-        }
-    }
 </style>

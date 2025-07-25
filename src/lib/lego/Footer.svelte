@@ -52,20 +52,4 @@
         color: #ffffff;
         justify-content: space-between;
     }
-    
-    .separator{
-        background-color: var(--footera);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 46px;
-    }
-
-    .doromiertZnak{
-        display: flex;
-        gap: 10px;
-        @media (max-width: 620px) {
-            flex-direction: column;
-        }
-    }
 </style>
