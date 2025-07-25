@@ -85,8 +85,16 @@
         background-color: var(--comb);
         justify-content: space-between;
 
-        &:hover{
-            scale: 1.1;
+        @media (hover: hover){
+            &:hover{
+                filter: brightness(150%);
+                scale: 1.1;
+            }
+        }
+        &:active{
+            filter: brightness(50%);
+            scale: 0.9;
+            transition: none;
         }
     }
 
