@@ -142,16 +142,16 @@
 
     .pageLego{
         background-color: var(--jaba);
-        height: calc(100vh - 46px);
+        min-height: calc(100vh - 46px);
+        height: min-content;
+        padding: 80px;
+        box-sizing: border-box;
         width: 100vw;
         align-items: center;
         display: flex;
         justify-content: center;
         flex-direction: column;
         gap: 20px;
-        padding: 50px;
-        padding-top: 0;
-        padding-bottom: 0;
         box-sizing: border-box;
     }
     

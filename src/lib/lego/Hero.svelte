@@ -24,7 +24,10 @@
 
     .pageLego{
         background-color: c.$blux-1;
-        height: calc(100vh - 46px);
+        min-height: calc(100vh - 46px);
+        height: min-content;
+        padding: 80px;
+        box-sizing: border-box;
         width: 100vw;
         align-items: center;
         display: flex;
