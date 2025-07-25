@@ -55,13 +55,12 @@
     .doromiertZnak{
         display: flex;
         gap: 10px;
+        transition: 0.25s;
         @media (max-width: 620px) {
             flex-direction: column;
         }
-
         *{
             user-select: none;
         }
-        transition: 0.25s;
     }
 </style>

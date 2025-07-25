@@ -67,7 +67,7 @@
     .comButtons{
         display: flex;
         gap: 10px;
-        max-width: 220px;
+        max-width: 250px;
         width: 100%;
         flex-direction: column;
     }
@@ -84,6 +84,10 @@
         color: var(--coma);
         background-color: var(--comb);
         justify-content: space-between;
+
+        &:hover{
+            scale: 1.1;
+        }
     }
 
     .pageLego{
