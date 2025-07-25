@@ -46,8 +46,8 @@ declare module '$env/static/private' {
 	export const npm_config_globalconfig: string;
 	export const EDITOR: string;
 	export const PWD: string;
-	export const LOGNAME: string;
 	export const XDG_SESSION_DESKTOP: string;
+	export const LOGNAME: string;
 	export const XDG_SESSION_TYPE: string;
 	export const npm_config_init_module: string;
 	export const SYSTEMD_EXEC_PID: string;
@@ -166,8 +166,8 @@ declare module '$env/dynamic/private' {
 		npm_config_globalconfig: string;
 		EDITOR: string;
 		PWD: string;
-		LOGNAME: string;
 		XDG_SESSION_DESKTOP: string;
+		LOGNAME: string;
 		XDG_SESSION_TYPE: string;
 		npm_config_init_module: string;
 		SYSTEMD_EXEC_PID: string;
