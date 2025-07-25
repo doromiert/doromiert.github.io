@@ -13,12 +13,12 @@
         </div>
     </div>
     <div class="buttons">
-        <a href="buymeacoffee.com/nrdeez">
+        <a href="https://buymeacoffee.com/nrdeez">
             <button style="background-color: var(--footerb)">
                 <Icon name="Money" color="var(--footera)"/>
             </button>
         </a>
-        <a href="github.com/nrdsstuff/doromiert.github.io">
+        <a href="https://github.com/nrdsstuff/doromiert.github.io">
             <button style="background-color: var(--footerb)">
                 <Icon name="Github" color="var(--footera)"/>
             </button>
