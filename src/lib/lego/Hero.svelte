@@ -75,6 +75,8 @@
         justify-content: center;
         flex-direction: column;
         gap: 1.5rem;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .definition{
