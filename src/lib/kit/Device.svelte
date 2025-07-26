@@ -65,6 +65,7 @@
         width: 100vw;
         height: 100vh;
         z-index: 2137;
+        box-sizing: border-box;
 	}
 
 	.modal-header {
@@ -108,13 +109,15 @@
 
 	.modal-body {
 		overflow-y: scroll;
+        box-sizing: border-box;
 		// Basic styling for markdown output
         align-items: center;
         display: flex;
         flex-direction: column;
-        padding: 80px;
+        padding: 60px;
         padding-top: 0;
         line-height: 1.3;
+        width: 100%;
 		:global(p) {
 			line-height: 1.8;
 		}
