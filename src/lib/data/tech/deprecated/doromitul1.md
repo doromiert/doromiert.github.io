@@ -1,12 +1,13 @@
-My PC
+doromi tul I
 Display
+# deprecated since 1.8.2025
 ## specs
 - cpu: i5 10400f
 - graphics: rtx 3060 12GB
 - ram: 32GB DDR4-2666
 - motherboard: Gigabyte B560M DS3H
-- psu: some random corsair 650W psu lol
-- storage: 
+- psu: Corsair cv650
+- storage:
     - 2TB m.2 
     - 2TB HDD
     - 512GB HDD
@@ -23,6 +24,7 @@ one of the first things i did when i got it was install some linux distro on it,
 <br>
 <br>
 as of writing this, i recently converted my pc from being used like any other pc to this weird setup where i literally don't have a display on my desk, there's nothing plugged into my PC
+<br>
 <br>
 the way i did that was:
 
