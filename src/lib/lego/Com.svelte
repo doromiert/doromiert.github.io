@@ -11,6 +11,15 @@
         <Icon name="Chat" size={50} color="var(--comb)"/>
         <h>Find me here</h>
         <div class="comButtons">
+            <a href="https://t.me/doromiert">
+                <button>
+                    <div class="a">
+                        <Icon name="Telegram" color="var(--coma)"/>
+                        Telegram
+                    </div>
+                    <Icon name="Direction-r" color="var(--coma)"/>
+                </button>
+            </a>
             <a href="https://discord.com/users/786127059020808192">
                 <button>
                     <div class="a">
