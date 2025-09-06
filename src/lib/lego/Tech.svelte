@@ -85,6 +85,7 @@
 	<div class="pageLego">
 		<Icon name="Laptop" size={50} color="var(--libb)" />
 		<h>My tech</h>
+		(fyi the devices with a ! in front of the name have unfinished articles about them)
 
 		{#if loading}
 			<p>Loading devices...</p>

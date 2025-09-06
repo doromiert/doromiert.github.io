@@ -17,7 +17,6 @@ nixos
 - [immich](https://immich.neg-zero.com)
 - [copyparty](https://copyparty.neg-zero.com)
 - [ssh](https://ssh.neg-zero.com)
-- [git](https://git.neg-zero.com)
 - [torrents](https://torrent.neg-zero.com)
 <br>
 
