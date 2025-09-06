@@ -12,12 +12,15 @@ Display
     - 2TB HDD
     - 512GB HDD
     - 512GB SSD
+<br>
+
 ## software
 proxmox:
 - cachyos
 - sapphireos (win11)
-
 <br>
+
+# lore
 i got this absolute unit back in 2021 when it was still basically impossible to get a graphics card outside of just getting a prebuilt PC that had it included
 <br>
 one of the first things i did when i got it was install some linux distro on it, i don't remember which one it was exactly

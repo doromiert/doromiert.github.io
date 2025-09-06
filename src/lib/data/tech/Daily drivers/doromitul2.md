@@ -8,16 +8,25 @@ Display
 - psu: Corsair hx850
 - storage: 
     - 2TB m.2 
-    - 2TB HDD
-    - 512GB HDD
+    - 128GB HDD
+    - 256GB HDD
     - 512GB SSD
-## software
-proxmox:
-- cachyos
-- sapphireos (win11)
-- debian (homeserver vm)
 
 <br>
+
+## software
+- cachyos
+- sapphireos (win11)
+
+<br>
+
+## update as of 6.9.2025
+- removed 2TB HDD (now it's in my server)
+- switched from proxmox to cachyos and sapphireos running on bare metal
+
+<br>
+
+## lore
 i finally decided to upgrade from doromi tul I and this time, i got really lucky when it comes to the components in this machine
 <br>
 <br>
