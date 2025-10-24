@@ -4,10 +4,27 @@
     import ert from "$lib/doromiertznak/ert.svg"
     import Icon from "lib/kit/Icon.svelte";
     import d from "$lib/assets/D.svg"
+    import { viewport } from "../../actions/observer";
+
+    let isAtTop = false;
+    function handleIntersection(event: any) {
+        isAtTop = event.detail.isIntersecting;
+        console.log(`Element is at top of viewport: ${isAtTop}`);
+    }
 </script>
 
+<svelte:head>
+    {#if isAtTop}
+        <meta name="theme-color" content="#004A69" />
+    {/if}
+</svelte:head>
+
 <div class="separator"><Icon color="var(--jabb)" name="Direction-d"/></div>
-<section id="jab">
+<section id="jab"
+    use:viewport
+    on:intersect={handleIntersection}
+    class:active={isAtTop}    
+>
     <div class="pageLego">
         <svg  viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="d">
             <g clip-path="url(#clip0_60_29)">

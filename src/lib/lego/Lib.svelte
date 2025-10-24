@@ -3,10 +3,26 @@
     import omi from "$lib/doromiertznak/omi.svg"
     import ert from "$lib/doromiertznak/ert.svg"
     import Icon from "lib/kit/Icon.svelte";
+    import { viewport } from "../../actions/observer";
+    let isAtTop = false;
+    function handleIntersection(event: any) {
+        isAtTop = event.detail.isIntersecting;
+        console.log(`Element is at top of viewport: ${isAtTop}`);
+    }
 </script>
 
+<svelte:head>
+    {#if isAtTop}
+        <meta name="theme-color" content="#2E7700" />
+    {/if}
+</svelte:head>
+
 <div class="separator"><Icon color="var(--libb)" name="Direction-d"/></div>
-<section id="lib">
+<section id="lib"
+use:viewport
+    on:intersect={handleIntersection}
+    class:active={isAtTop}  
+>
     <div class="pageLego">
         <Icon name="Library" size={50} color="var(--libb)"/>
         <h>My creations</h>

@@ -2,9 +2,26 @@
     import dor from "$lib/doromiertznak/dor.svg"
     import omi from "$lib/doromiertznak/omi.svg"
     import ert from "$lib/doromiertznak/ert.svg"
+    
+    import { viewport } from "../../actions/observer";
+    let isAtTop = false;
+    function handleIntersection(event: any) {
+        isAtTop = event.detail.isIntersecting;
+        console.log(`Element is at top of viewport: ${isAtTop}`);
+    }
 </script>
 
-<section id="hero">
+<svelte:head>
+    {#if isAtTop}
+        <meta name="theme-color" content="#C96959" />
+    {/if}
+</svelte:head>
+
+<section id="hero"
+    use:viewport
+    on:intersect={handleIntersection}
+    class:active={isAtTop} 
+>
     <div class="pageLego">
         <div class="doromiertZnak">
             <img src={dor} alt="dor">
@@ -18,6 +35,7 @@
         <div class="beta">beta edition!</div>
     </div>
 </section>
+
 
 <style lang="scss">
     @use '$lib/style/variables.scss' as v;
