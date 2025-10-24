@@ -1,5 +1,6 @@
 doromipad
 Laptop
+ThinkPad L13
 ## specs
 - cpu: i5 10210U
 - ram: 8GB soldered-on
